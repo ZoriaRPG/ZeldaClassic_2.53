@@ -1,0 +1,7 @@
+//string.zh
+//05-SEPT-2015
+//ZScript string handling functions, akin to those found in C
+
+
+import "string_constants.zh"
+import "string_functions.zh"

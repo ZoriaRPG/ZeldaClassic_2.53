@@ -1,0 +1,47 @@
+ChangeLog for 2.50.2.1 RC1
+	
+Fixed 3rd quest with zero deaths not going to 5th quest. ( ZoriaRPG, 20th June, 2017 )
+
+Reverted COMBOSDM change made by Saffith, as it caused different bugs with older players. 
+This is properly fixed in 2.51+. ( ZoriaRPG, 20th June 2017 )
+
+Fixed long-standing bug where setting Link->Item every frame causes lag. ( ZoriaRPG, May 2017 )
+
+Fixed lweapon->Behind not working. ( ZoriaRPG, May 2017 )
+
+Fixed ffc->Link being unable to be cleared, or otherwise set to 0 ( ZoriaRPG, May 2017 )
+
+Fixed scale args for DrawChar() and DrawInteger(): Both of these now scale per zscript.txt documentation. ( ZoriaRPG, Jan 2017 )
+
+Zelda Classic Menus: Added Etc->Show Debug Console. This opens the Allegro debug console or closes it if it is open. ( ZoriaRPG, Jan 2017 )
+
+ZScript Variables in scope are destroyed when their scope exits. ( DarkDragon, Jan 2017 )
+
+Added a checkbox to disable analog stick movement.
+Changed joystick config dialogues to match keyboard config dialogues. 
+Added more joystick options to ag.cfg. 
+Small fixes to joystick input. 
+Fixed minor issues in key config dialogues. ( Saffith, 18-Dec-2016 )
+
+Additional fixes with Link exiting water. ( Saffith, 15-Dec-2016 )
+
+Fixed an invalid read in draw_wavy(). ( Saffith, 14-Dec-2016 )
+
+Fixed Link's position being offset improperly on continue when quakeclk > 0. 
+Ensure overscane rectangle is black while the screen is shaking. 
+Fixed an issue with Limk exiting water. 
+Fixed Stone of Agony sensitivity. ( Saffith, 11-Dec-2016 )
+
+Fixed incorrect screen calculation and possible crash in warp with combos that carry over. ( Saffith, 6-Dec-2016 )
+
+Global script OnExit now works. In prior versions, this script did not run. 
+
+Fixed a crash when loading a sfx file with more than 35 chars or without any extension. ( Gleeok, 2015-12-30 01:05:05 )
+
+Fixed negative constants being read incorrectly.
+Fixed incorrect screen calculation and possible crash in Game->SetComboSolid(). ( Saffith, 2015-12-19 19:41:38 )
+
+Fixed a crash when importing combos. ( Saffith, 2015-11-27 09:30:31 )     
+
+Replaced the built-in MIDIs with versions edited by zaphod77 to sound more like the NES game. ( Saffith, 2015-10-14 10:41:20 )
+
